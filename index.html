@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-r00102431">
+        <li class="text">R0010243[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-r00102421">
+        <li class="text">R0010242[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-r00102411">
+        <li class="text">R0010241[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-r00102401">
+        <li class="text">R0010240[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-r00102381">
+        <li class="text">R0010238[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-r00102371">
+        <li class="text">R0010237[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-r00102361">
+        <li class="text">R0010236[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-r00102341">
+        <li class="text">R0010234[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-r00102331">
+        <li class="text">R0010233[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-r00102321">
+        <li class="text">R0010232[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-r00102311">
+        <li class="text">R0010231[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-r00102301">
+        <li class="text">R0010230[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-r00102291">
+        <li class="text">R0010229[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-r00102281">
+        <li class="text">R0010228[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-r00102271">
+        <li class="text">R0010227[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-r00102261">
+        <li class="text">R0010226[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-r00102251">
+        <li class="text">R0010225[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-r00102241">
+        <li class="text">R0010224[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-r00102231">
+        <li class="text">R0010223[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-r00102221">
+        <li class="text">R0010222[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-r00102211">
+        <li class="text">R0010221[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-r00102201">
+        <li class="text">R0010220[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-r00102191">
+        <li class="text">R0010219[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-r00102181">
+        <li class="text">R0010218[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-r00102171">
+        <li class="text">R0010217[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-r00102161">
+        <li class="text">R0010216[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-r00102151">
+        <li class="text">R0010215[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-r00102141">
+        <li class="text">R0010214[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-r00102131">
+        <li class="text">R0010213[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-r00102121">
+        <li class="text">R0010212[1]</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-r00102111">
+        <li class="text">R0010211[1]</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
